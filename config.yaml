@@ -1,0 +1,15 @@
+logger:
+  logLevel: info
+  logDir: ./
+  logMode: stdout
+  rewriteLog: true
+kafkaConfig:
+  brokers:
+    - 127.0.0.1:32000
+    - 127.0.0.1:32001
+consumerConfig:
+  topic: notification-assembled
+  group_id: notification-assembled-1
+telegramConfig:
+  telegram_bot_token:
+  telegram_chat_id: 
